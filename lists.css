@@ -1,0 +1,62 @@
+html {
+  font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+  font-size: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: rgb(99, 94, 186);
+}
+
+ul, ol, dl, p {
+  font-size: 1.5rem;
+}
+
+li, p {
+  line-height: 1.5;
+}
+
+dd, dt {
+  line-height: 1.5;
+}
+
+dt {
+  font-weight: bold;
+  color: purple;
+  text-shadow: 1px 1px 5px rgb(232, 196, 223);
+}
+
+dd {
+  margin-bottom: 1.5rem;
+  color: rgb(185, 155, 87);
+  text-shadow: 1px 1px 5px rgb(232, 196, 223);
+}
+
+ul {
+  /*padding-left: 2rem;*/
+  list-style-type: none;
+  /*list-style: square url(star.svg) inside;*/
+}
+
+ul li {
+  display: inline;
+  color: green;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: rgb(205, 238, 221);
+  background-image: url(star.svg);
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+}
+
+ol {
+  padding-left: 2rem;
+  /*list-style-type: decimal;*/
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+li::after {
+  content: "|";
+}
