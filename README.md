@@ -15,6 +15,9 @@
 - list-style-image : not very useful, instead use backgroud properties
 	
 ` background-image: url(star.svg);
+
   background-position: 0 0;
+
   background-size: 1.6rem 1.6rem;
+
   background-repeat: no-repeat;`
