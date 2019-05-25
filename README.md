@@ -4,7 +4,7 @@
 - ordered lists
 - description lists
 
-# Basics of styling lists
+##  Basics of styling lists
 
 - Line spacing (line-height)
 - font sizes
